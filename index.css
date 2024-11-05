@@ -1,21 +1,18 @@
-.content {
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    animation-name:  "slide-in";
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+.intro {}
 
-    width: 20%;
+.info {}
+
+.partirAuVert {}
+
+.wildCodeSchool {}
+
+.esdi {}
+
+.usine {}
+
+
+body {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
-
-@keyframes slide-in {
-    from {
-      transform: translateX(0%);
-    }
-  
-    to {
-      transform: translateX(100%);
-    }
-  }
-  
