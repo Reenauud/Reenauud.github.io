@@ -1,4 +1,35 @@
-.intro {}
+.intro {
+  background-color: rgba(197, 193, 193, 0.868);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1%;
+
+}
+
+.intro p
+{
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.describeintro
+{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.myname
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .info {}
 
@@ -15,4 +46,77 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  background-image: url("./background.jpg");
+}
+
+.jobContainer
+{
+  background-color: rgba(197, 193, 193, 0.868);
+  border: 1px solid white;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 2px 3px 10px 1px white;
+  z-index: 7;
+  display: block;
+}
+
+.jobContainer h3
+{
+  margin-left: 5%;
+  margin-top: 1px;
+  background-color: transparent;
+  width: 90%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.jobContainer h4
+{
+  margin-left: 5%;
+  background-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: blueviolet;
+
+}
+
+
+
+.imgJob
+{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  z-index: 10;
+  /* margin-left: 4%; */
+}
+
+.containerDescribeAndImg
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 2%;
+  align-items:center;
+  background-color: green;
+  width: 95%;
+  /* justify-content: center; */
+
+}
+
+.describe
+{
+  width: 70%;
+  margin-left: 10%;
+  text-align:justify;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  background-color: transparent;
+  z-index: 14;
+  font-size:medium;
 }
