@@ -17,6 +17,7 @@
   margin-right: 2%;
   margin-top: 4px;
   margin-bottom: 4px;
+  color: rgb(216, 216, 216);
 }
 
 .describeintro {
@@ -58,24 +59,40 @@ body {
 }
 
 .jobContainer p {
-  margin-left: 5%;
-  margin-top: 10px;
+  /* margin-left: 5%;
+  margin-top: 12px;
   background-color: transparent;
   width: 90%;
   display: flex;
   justify-content: center;
   text-shadow: rgb(255, 255, 255) 1px 0px 5px;
   color: rgb(216, 216, 216);
+  margin-bottom: 10%; */
+
+  margin-left: 5%;
+  margin-top: 0px;
+  background-color: transparent;
+  width: 90%;
+  display: flex;
+  color: rgb(216, 216, 216);
 
 }
 
 .jobContainer h4 {
-  margin-left: 5%;
+  /* margin-left: 5%;
   margin-top: 5px;
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
   text-shadow: rgb(255, 255, 255) 1px 0px 5px;
+  color: rgb(216, 216, 216); */
+
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: center;
+  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
   color: rgb(216, 216, 216);
 }
 
@@ -103,13 +120,19 @@ body {
 }
 
 .containerDescribeAndImg {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   margin-left: 3%;
   margin-right: 2%;
   align-items: center;
   background-color: transparent;
-  width: 95%;
+  width: 95%; */
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  background-color: transparent;
+  width: 100%;
 
 }
 
@@ -123,7 +146,7 @@ body {
   background-color: transparent;
   z-index: 14;
   font-size: medium;
-  text-shadow: rgb(255, 255, 255) 1px 0px 5px;
+  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
   color: rgb(185, 181, 181);
   height: 110px;
 
@@ -140,13 +163,26 @@ h1 {
 }
 
 .exptitle {
-  background-color: transparent;
+  /* background-color: transparent;
   display: flex;
   justify-content: center;
   color: white;
   font-size: 25px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
+
+  background-color: rgba(19, 19, 19, 0.873);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  margin-top: -1px;
+  margin-bottom: 12px;
+  width: 26%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px 1px white;
+  border: 1px solid white;
+
 }
 
 .diplom {
@@ -166,6 +202,8 @@ h1 {
   box-shadow: 2px 3px 10px 1px white;
   margin-left: -2.5%;
   margin-right: 1%;
+  margin-bottom: 0.4%;
+  margin-top: 0.35%;
 }
 
 .skills img {
@@ -217,7 +255,7 @@ h1 {
   margin-top: 0px;
   margin-bottom: 15px;
   color: black;
-  text-shadow: rgb(255, 255, 255) 1px 0px 5px;
+  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
   background-color: whitesmoke;
   border-radius: 10px 10px 0px 0px;
   border: 1px solid white;
@@ -225,13 +263,13 @@ h1 {
 }
 
 .skills p {
-  text-shadow: rgb(255, 255, 255) 1px 0px 5px;
+  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   font-size: medium;
-  color: white;
+  color: rgb(216, 216, 216);
 }
 
 .titleDiplome {
@@ -248,9 +286,17 @@ h1 {
 }
 
 .diplom h5 {
-  text-shadow: rgb(255, 255, 255) 1px 0px 5px;
-  color: white;
+  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
+  color: rgb(216, 216, 216);
   margin-top: 4%;
   margin-bottom: 4%;
 
 }
+
+.containerExpTitle{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
