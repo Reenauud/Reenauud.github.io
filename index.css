@@ -34,8 +34,9 @@
   display: flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.848);
-  border-radius: 10px 10px 0px 0px;
-  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  width: 88%;
+  margin-left: 6%;
 
 }
 
@@ -80,20 +81,11 @@ body {
 }
 
 .jobContainer h4 {
-  /* margin-left: 5%;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
-  text-shadow: rgb(255, 255, 255) 1px 0px 5px;
-  color: rgb(216, 216, 216); */
-
   margin-left: 5%;
-  margin-top: 5px;
-  margin-bottom: 7px;
+  margin-top: -15px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
-  /* text-shadow: rgb(255, 255, 255) 1px 0px 5px; */
   color: rgb(216, 216, 216);
 }
 
@@ -315,6 +307,12 @@ h1 {
   animation-delay: 2s;
 }
 
+.containerTitleDate p {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 
 @keyframes iconAnimation {
@@ -388,12 +386,12 @@ h1 {
 
 @media (max-width: 500px) {
   .intro {
-    background-color: blueviolet;
+    background-color: rgba(19, 19, 19, 0.873);
   }
 
   .exptitle {
     width: 100%;
-    background-color: red;
+    background-color: rgba(19, 19, 19, 0.873);
   }
 
   .containerAllJobsAndInfo {
@@ -409,7 +407,16 @@ h1 {
     width: 101%;
     box-shadow: 2px 3px 10px 1px white;
     display: block;
-    margin-top: 0.5%;
+    margin-top: 2.5%;
+  }
+
+  .jobContainer p {
+    margin-left: 5%;
+    margin-top: 0px;
+    background-color: transparent;
+    width: 93%;
+    display: flex;
+    color: rgb(216, 216, 216);
   }
 
   .containerAllJobContainer {
@@ -442,5 +449,7 @@ h1 {
     margin-top: 0.35%;
     animation: "iconAnimation";
     animation-duration: 2s;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
