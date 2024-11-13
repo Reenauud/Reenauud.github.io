@@ -377,6 +377,8 @@ h1 {
   }
 }
 
+
+
 @media (max-width: 500px) {
   .intro {
     background-color: rgba(19, 19, 19, 0.873);
@@ -387,24 +389,27 @@ h1 {
     background-color: rgba(19, 19, 19, 0.873);
     font-size: 23px;
     animation: none
-
   }
 
   .containerAllJobsAndInfo {
+    /* display: flex;
+    flex-direction: column; */
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
   }
-  
+
 
   .jobContainer {
     background-color: rgba(19, 19, 19, 0.873);
     border: 1px solid white;
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
     border-radius: 10px;
-    width: 101%;
+    width: 100%;
     box-shadow: 2px 3px 10px 1px white;
     display: block;
-    margin-top: 2.5%;
+    margin-right: 0%;
   }
 
   .jobContainer p {
@@ -414,6 +419,7 @@ h1 {
     width: 93%;
     display: flex;
     color: rgb(216, 216, 216);
+    overflow: auto;
   }
 
   .containerAllJobContainer {
@@ -421,7 +427,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 106%;
+    width: 100%;
     margin-top: 0px;
     height: 100%;
   }
@@ -444,9 +450,69 @@ h1 {
     box-shadow: 2px 3px 10px 1px white;
     margin-bottom: 0.4%;
     margin-top: 0.35%;
-    animation: "iconAnimation";
-    animation-duration: 2s;
+    animation: none;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 5%;
+  }
+
+  .skills p
+  {
+    animation: none;
+  }
+
+
+  .diplom {
+    /* border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: none;
+    margin-left: 0%; */
+
+    margin-top: 5%;
+
+    border-radius: 10px;
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    animation: none;
+    flex-wrap: wrap;
+  }
+
+  .diplomCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: rgba(19, 19, 19, 0.873);
+    box-shadow: 2px 3px 10px 1px white;
+    border: 1px solid white;
+    width: 33%;
+  }
+
+  .iconBox img{
+
+    animation: none;
+
+  }
+
+  .diplom h5 {
+    overflow: auto;
+  }
+
+  .hiddenDiplomeTitle {
+    display: none;
+  }
+
+  .titleWork {
+    font-size: larger;
+  }
+
+  .containerExpTitle {
+    margin-top: 3%;
   }
 }
