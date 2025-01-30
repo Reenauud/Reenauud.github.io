@@ -489,16 +489,18 @@ h1 {
   }
 }
 
-
-
-
 @keyframes introAnimation {
-  from {
+  0% {
 
     height: 0vh;
   }
 
-  to {
+  50% {
+
+    height: 8.5vh;
+  }
+
+  100% {
 
     height: auto;
   }
