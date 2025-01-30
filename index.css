@@ -1,0 +1,771 @@
+.intro {
+  background-color: rgba(19, 19, 19, 0.873);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  animation-name: "introAnimation";
+  animation-duration: 1s;
+  font-size: 13px;
+}
+
+.intro p {
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: rgb(216, 216, 216);
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.intro p:hover {
+
+  color: white;
+
+}
+
+.describeintro {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.myname {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.diplomAndFormation {
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  margin-right: 12.8%;
+  animation: "apparition" 2s reverse;
+  animation-delay: 0s;
+  animation-delay: 2s;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+.diplomCard:hover {
+  animation: "blur" 1s alternate-reverse infinite;
+  animation: "skillImageAnimation" 1s alternate-reverse infinite;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./background.jpg");
+}
+
+.jobContainer {
+  background-color: rgba(19, 19, 19, 0.873);
+  margin-bottom: 0.5%;
+  border-radius: 10px;
+  display: flex;
+  margin-right: 4%;
+  margin-top: 0.5%;
+  width: 100%;
+  height: 26vh;
+  animation-duration: 2s;
+  animation-name: "animationXp";
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.titleWork {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.848);
+  border-radius: 0px 0px 10px 10px;
+  width: 20%;
+  margin-left: 6%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.containerTitleDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.jobContainer p {
+  margin-top: 0px;
+  background-color: transparent;
+  display: flex;
+  color: rgb(216, 216, 216);
+  margin-right: 2%;
+
+}
+
+.jobContainer h4 {
+  margin-left: 5%;
+  margin-top: -14px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(216, 216, 216);
+}
+
+.containerAllJobContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 0px;
+  height: 100%;
+  justify-content: center;
+
+
+}
+
+.containerAllJobContainer h3 {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.imgJob {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  border-radius: 16%;
+  border: 1px solid white;
+  background-size: contain;
+}
+
+.describeJob {
+  background-color: transparent;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 98%;
+}
+
+.imgJob:hover {
+
+  animation-name: "zoom";
+  animation-duration: 2s;
+}
+
+li:hover {
+  color: white;
+}
+
+li {
+  background-color: transparent;
+  width: 48vw;
+  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.containerDescribeAndImg {
+  display: flex;
+  margin-left: 1%;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 59%;
+}
+
+.nameAndJob {
+  background-color: transparent;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.describe {
+  width: 70%;
+  margin-left: 10%;
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  background-color: transparent;
+  z-index: 14;
+  font-size: medium;
+  color: rgb(185, 181, 181);
+  display: inline-block;
+}
+
+h2 {
+  color: rgba(32, 32, 32, 0.834);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: white;
+}
+
+.exptitle {
+  display: flex;
+  color: white;
+  font-size: 16px;
+  animation: "apparition" 2s reverse;
+  margin-left: 2%;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.diplom {
+  border-radius: 10px;
+  width: 19%;
+  margin-left: 3%;
+  animation: "float" 4s ease-in-out 1;
+  background-color: transparent;
+  margin-top: 1.3%;
+  height: 81vh;
+}
+
+.skills {
+  background-color: rgba(19, 19, 19, 0.873);
+  border-radius: 10px;
+  margin-left: -1.5%;
+  margin-right: -1.5%;
+  margin-bottom: 0.4%;
+  margin-top: 1.5%;
+  height: 81vh;
+  animation: "skillAnimation";
+  animation-duration: 5s;
+  overflow: hidden;
+  width: 25vw;
+}
+
+.skills img {
+  border-radius: 10px;
+  width: 50px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 10px 1px white;
+  animation: "skillImageAnimation" 2s infinite;
+
+
+}
+
+.skills:hover {
+  box-shadow: 1px 1px 10px 1px white;
+}
+
+.iconBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: safe;
+  margin-left: 14%;
+  margin-top: 7.3%;
+  align-items: center;
+}
+
+.iconAndTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15%;
+  width: 18%;
+
+}
+
+.containerAllJobsAndInfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 0px;
+}
+
+.diplomCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(19, 19, 19, 0.873);
+  box-shadow: 2px 3px 10px 1px white;
+  animation: "blur";
+  animation-duration: 2s;
+  margin-bottom: 29%;
+}
+
+.diplomCard p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #d5cdcd;
+  ;
+  background-color: rgba(215, 204, 204, 0.598);
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid white;
+
+}
+
+.skills p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(216, 216, 216);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.skills p:hover {
+
+  animation: "titleIconAnimation";
+  animation-duration: 0.5s;
+
+}
+
+.titleDiplome {
+  border-color: 1px solid white;
+  color: orange;
+}
+
+
+.diplom h1 {
+  font-size: medium;
+  font-style: normal;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.diplom h5 {
+  color: rgb(216, 216, 216);
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.containerExpTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 11px;
+  margin-bottom: 0.5%;
+  background-color: transparent;
+  margin-left: 13%;
+}
+
+.CompetenceTitle {
+  display: flex;
+  color: white;
+  font-size: 15px;
+  animation: "apparition" 2s reverse;
+  animation-delay: 0s;
+  animation-delay: 1s;
+  margin-top: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.iconBox img:hover {
+  animation: "iconAnimation";
+  animation-duration: 1s;
+}
+
+.containerTitleDate p {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jobContainer:hover {
+
+  box-shadow: 1px 1px 10px 1px white;
+
+}
+
+
+
+
+@keyframes skillImageAnimation {
+
+  0% {
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+
+  }
+
+  25% {
+    box-shadow: 5px 2px 10px 5px rgb(0, 0, 0);
+
+  }
+
+  50% {
+    box-shadow: 1px 1px 10px 3px rgba(190, 188, 188, 0.607);
+
+  }
+
+  75% {
+    box-shadow: 1px 1px 10px 3px rgba(190, 188, 188, 0.607);
+
+  }
+
+  100% {
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0);
+
+  }
+
+}
+
+
+@keyframes blur {
+  from {
+    filter: blur(10px);
+
+  }
+
+  to {
+    filter: none
+  }
+}
+
+
+@keyframes skillAnimation {
+
+  0% {
+
+    width: 0vw;
+    display: none;
+    height: 0vh;
+
+
+  }
+
+  50% {
+    width: 25vw;
+    height: 81vh;
+
+  }
+
+  100% {
+    width: 25vw;
+    height: 81vh;
+
+  }
+
+}
+
+
+@keyframes animationXp {
+  0% {
+    height: 0vh;
+  }
+
+  50% {
+    height: 25vh;
+  }
+
+  100% {
+    height: 26vh;
+  }
+}
+
+
+
+@keyframes ecriture {
+
+  from {
+
+    color: black
+  }
+
+  to {
+    color: white;
+  }
+}
+
+
+
+
+@keyframes introAnimation {
+  from {
+
+    height: 0vh;
+  }
+
+  to {
+
+    height: auto;
+  }
+}
+
+
+
+@keyframes iconAnimation {
+  from {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    width: 90px;
+    height: 90px;
+  }
+
+  50% {
+    width: 120px;
+    height: 120px;
+  }
+
+  100% {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@keyframes titleIconAnimation {
+  from {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+
+  }
+}
+
+@keyframes float {
+  from {
+    transform: translatey(-10%);
+  }
+
+  to {
+    
+    transform: translatey(0%);
+
+  }
+}
+
+@keyframes apparition {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(161, 4, 4, 0.6);
+    transform: translatey(0px);
+  }
+
+  50% {
+    box-shadow: 0 25px 15px 0px #f6f6f633;
+    transform: translatey(-20px);
+  }
+
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+p {
+
+  animation-name: "ecriture";
+  animation-duration: 5s;
+
+
+}
+
+
+@media (max-device-width: 500px) {
+
+  .intro {
+    background-color: rgba(0, 0, 0, 0.88);
+    animation-name: "introAnimation";
+    animation-duration: 1s;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .nameAndJob {
+    width: 100%;
+  }
+
+  .diplom {
+    border-radius: 10px;
+    width: 99%;
+    animation: "float" 4s ease-in-out 1;
+    background-color: transparent;
+    margin-top: 1.3%;
+    margin-left: 0%;
+    height: 0%;
+  }
+
+  .diplomCard {
+    margin-bottom: 2%;
+  }
+
+  .exptitle {
+    width: 100%;
+    font-size: 16px;
+    animation: none;
+    color: rgb(216, 216, 216);
+  }
+
+  .titleWork {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.848);
+    border-radius: 0px 0px 10px 10px;
+    width: 39%;
+    margin-left: 6%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0.5vh;
+  }
+
+  .jobContainer {
+    background-color: rgba(19, 19, 19, 0.873);
+    border: none;
+    animation: none;
+    overflow: auto;
+    margin-right: 0%;
+    height: auto;
+    margin-top: 1.5%;
+  }
+
+  .jobContainer h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+
+  .containerAllJobContainer {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0px;
+    height: 74%;
+    justify-content: center;
+  }
+
+  .containerAllJobsAndInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+    height: 100%;
+  }
+
+  .describe {
+    width: 100%;
+    text-align: justify;
+    color: rgb(216, 216, 216);
+    background-color: transparent;
+    margin-left: -4%;
+    margin-right: 2%;
+    margin-top: auto;
+  }
+
+  .describeJob {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .containerAllJobContainer h3 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0%;
+  }
+
+  .containerDescribeAndImg {
+    display: flex;
+    background-color: transparent;
+    margin-left: 0%;
+  }
+
+  .containerTitleDate p {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 11px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  li {
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  .imgJob {
+    display: none;
+  }
+
+  .skills {
+    background-color: rgba(19, 19, 19, 0.873);
+    border-radius: 10px;
+    margin-right: -1.5%;
+    margin-bottom: 0.4%;
+    margin-left: 0%;
+    animation: none;
+    width: 100%;
+    overflow: visible;
+    height: 0%;
+  }
+
+  .skills img {
+    width: 19px;
+  }
+
+  .skills p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    color: rgb(216, 216, 216);
+  }
+
+  .iconBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.464);
+    margin-left: 0%;
+    margin-top: 3.3%;
+    align-items: center;
+  }
+
+  .iconAndTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16%;
+    margin-right: 0%;
+  }
+}
